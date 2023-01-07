@@ -1,0 +1,1 @@
+Scripts, that are here are very alpha thing, they are on public sheme etc. Full usable script with fixes and roles is in project03.
