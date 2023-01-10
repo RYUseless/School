@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ryu.useless.project03.controllers.AppController">
+   <children>
+      <MenuBar fx:id="optionBar">
+        <menus>
+          <Menu mnemonicParsing="false" text="Edit person">
+            <items>
+              <MenuItem fx:id="addPerson" mnemonicParsing="false" text="Add person" />
+                  <MenuItem fx:id="deletePerson" mnemonicParsing="false" text="Delete person" />
+                  <MenuItem fx:id="editPerson" mnemonicParsing="false" text="Edit person" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="SQL injection">
+            <items>
+                  <MenuItem fx:id="sqkAttack" mnemonicParsing="false" text="SQL attack" />
+              <MenuItem fx:id="dummySqlAttack" mnemonicParsing="false" text="Dummy SQL attack" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem fx:id="helpMe" mnemonicParsing="false" text="Click me for HELP" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Capybara">
+              <items>
+                <MenuItem fx:id="capyBlapy" mnemonicParsing="false" text="ClapyBlapy" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Search">
+               <items>
+                  <MenuItem fx:id="SearchItemMenu" mnemonicParsing="false" text="Search" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="387.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="menuBar" prefHeight="292.0" prefWidth="700.0">
+              <columns>
+                <TableColumn fx:id="personID" prefWidth="36.0" text="ID" />
+                <TableColumn fx:id="personName" prefWidth="79.66665649414062" text="Name" />
+                  <TableColumn fx:id="personSurname" prefWidth="87.66665649414062" text="Surname" />
+                  <TableColumn fx:id="personEmail" prefWidth="264.3332824707031" text="Email" />
+                  <TableColumn fx:id="personCity" prefWidth="106.66668701171875" text="City" />
+                  <TableColumn fx:id="personPhoneNumber" prefWidth="125.33331298828125" text="Phone number" />
+              </columns>
+            </TableView>
+            <Button fx:id="SearchButton" layoutX="600.0" layoutY="302.0" mnemonicParsing="false" onAction="#searchButtonAction" text="Search" />
+            <TextField fx:id="textField" layoutX="128.0" layoutY="302.0" prefHeight="27.0" prefWidth="433.0" />
+            <Label fx:id="findByEmailLabel" layoutX="25.0" layoutY="306.0" text="Find by email" />
+            <Button fx:id="RefreshButton" layoutX="318.0" layoutY="338.0" mnemonicParsing="false" onAction="#refresButtonAction" text="Refresh" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

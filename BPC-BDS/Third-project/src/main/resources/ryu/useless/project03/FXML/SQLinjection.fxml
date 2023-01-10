@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ryu.useless.project03.controllers.SQLinjectionController">
+   <children>
+      <AnchorPane prefHeight="397.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="161.0" layoutY="14.0" text="SQL injection attack">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableThing" layoutY="56.0" prefHeight="229.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="capyTableColumn" prefWidth="268.6666259765625" text="Capybara" />
+                <TableColumn fx:id="capy2TableColumn" minWidth="0.0" prefWidth="330.66668701171875" text="Capybara 2" />
+              </columns>
+            </TableView>
+            <Button fx:id="withPreparedStatementButton" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" onAction="#onActionPreparedStatement" prefHeight="42.0" prefWidth="211.0" text="withPreparedStatement" />
+            <Button fx:id="withoutPreparedSatement" layoutX="375.0" layoutY="341.0" mnemonicParsing="false" onAction="#onActionNOpreparedStatement" prefHeight="42.0" prefWidth="211.0" text="withoutPreparedStatement" />
+            <Button fx:id="refreshButton" layoutX="270.0" layoutY="349.0" mnemonicParsing="false" onAction="#onActionF5" text="REFRESH" />
+            <TextField fx:id="dummTextField" alignment="CENTER" editable="false" layoutX="129.0" layoutY="294.0" prefHeight="35.0" prefWidth="354.0" promptText="capyENDE = '; DROP TABLE bds.dummytable;--" text="capyENDE = '; DROP TABLE bds.dummytable;--">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
