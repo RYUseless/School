@@ -3,12 +3,13 @@
 # Základní commandy v terminálu, na které si vzpomenu:
 > `$` znamená základní oprávnění uživatele
 > `#` znamená root oprávnění uživatele
-
-0) pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, stačí za příkaz dát'--help', používá se i když si člověk nepamatuje všechny možnosti příkazu a tak, např:
+> pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, stačí za příkaz dát'--help', používá se i když si člověk nepamatuje všechny možnosti příkazu a tak, např:
 ``` 
 $ uname --help
 ```
+### Souhrn nejzákladnějších příkazů:
 
+### Akce a reakce s souborama a složkama:
 1) Vytvoření souboru (.txt, .md a další soubory):
 ``` 
 $ touch soubor.txt
@@ -50,3 +51,4 @@ $ lsusb
 # fdisk -l
 ```
 > zde je potřeba sudo <br>
+
