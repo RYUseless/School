@@ -4,10 +4,18 @@
 > `$` znamená základní oprávnění uživatele
 > `#` znamená root oprávnění uživatele
 > pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, stačí za příkaz dát'--help', používá se i když si člověk nepamatuje všechny možnosti příkazu a tak, např:
-``` 
-$ uname --help
-```
+> ``` 
+> $ uname --help
+> ```
 ### Souhrn nejzákladnějších příkazů:
+1) **ls** - vypíše vám adresáře
+> dále se používá 'ls -l', 'ls -a'... 'ls --help' pro více infa
+2) **pwd** - printne právě používaný adresář
+3) **cd** - stejné jak na windowsu, navigace do adresářů
+4) **mkdir** - vytvoření, víc k tomuto později
+5) **mv** - přesun/přejmenování složek
+6) **touch** vytvoření souboru, opět víc později
+7) 
 
 ### Akce a reakce s souborama a složkama:
 1) Vytvoření souboru (.txt, .md a další soubory):
