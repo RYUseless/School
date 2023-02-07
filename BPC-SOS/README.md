@@ -4,7 +4,7 @@
 > `$` znamená základní oprávnění uživatele
 > `#` znamená root oprávnění uživatele
 
-+ pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, '--help' pomáhá, např:
+0) pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, stačí za příkaz dát'--help', používá se i když si člověk nepamatuje všechny možnosti příkazu a tak, např:
 ``` 
 $ uname --help
 ```
@@ -36,3 +36,17 @@ $ whoami
 ``` 
 $ uname -r
 ```
+> další možnosti 'uname' si člověk zobrazí přes 'uname --help' <br>
+3) zobrazení particí os:
+``` 
+$ lsblk
+```
+4) zobrazení USB věcí v OS:
+``` 
+$ lsusb
+```
+5) víc yumge zobrazení info o filesystému os:
+``` 
+# fdisk -l
+```
+> zde je potřeba sudo <br>
