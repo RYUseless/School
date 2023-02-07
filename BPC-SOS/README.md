@@ -8,14 +8,44 @@
 > $ uname --help
 > ```
 ### Souhrn nejzákladnějších příkazů:
-1) **ls** - vypíše vám adresáře
+1) `ls` - vypíše vám adresáře
 > dále se používá 'ls -l', 'ls -a'... 'ls --help' pro více infa
-2) **pwd** - printne právě používaný adresář
-3) **cd** - stejné jak na windowsu, navigace do adresářů
-4) **mkdir** - vytvoření, víc k tomuto později
-5) **mv** - přesun/přejmenování složek
-6) **touch** vytvoření souboru, opět víc později
-7) 
+2) `pwd` - printne právě používaný adresář
+3) `cd` - stejné jak na windowsu, navigace do adresářů
+4) `mkdir` - vytvoření, víc k tomuto později
+5) `mv` - přesun/přejmenování složek
+6) `touch`- vytvoření souboru, opět víc později
+7) `cp` - podobné jako `mv`, ale pro soubory
+8) `rm` - smazání složek/souborů
+> jak se přesně maže složka a jak soubor zmíněno později
+9) `touch` - vytvoření souboru
+10) `ln` - Shortcut, "symbolický link" k jinačím složkám
+11) `cat` -
+12) `clear`
+13) `echo`
+14) `less`
+15) `man`
+16) `uname`
+17) `whoami`
+18) `tar`
+19) `grep`
+20) `head`
+21) `tail`
+22) `diff`
+23) `cmp`
+24) `conn`
+25) `sort`
+26) `export`
+27) `zip`
+28) `unzip`
+29) `ssh`
+30) `service`
+31) `ps`
+32) `kill and killall`
+33) `df`
+34) `mount`
+35) `chmod`
+36) ``
 
 ### Akce a reakce s souborama a složkama:
 1) Vytvoření souboru (.txt, .md a další soubory):
@@ -39,7 +69,7 @@ $ rm -rf jmeno_slozky
 ### zjišťování základního infa
 1) Jméno uživatele:
 ``` 
-$ whoami
+$ whoami 
 ```
 2) Verze kernelu, na které mi běží os:
 ``` 
