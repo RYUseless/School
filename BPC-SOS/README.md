@@ -21,31 +21,46 @@
 9) `touch` - vytvoření souboru
 10) `ln` - Shortcut, "symbolický link" k jinačím složkám
 11) `cat` -
-12) `clear`
-13) `echo`
-14) `less`
-15) `man`
-16) `uname`
-17) `whoami`
-18) `tar`
-19) `grep`
-20) `head`
-21) `tail`
-22) `diff`
-23) `cmp`
-24) `conn`
-25) `sort`
-26) `export`
-27) `zip`
-28) `unzip`
-29) `ssh`
-30) `service`
-31) `ps`
-32) `kill and killall`
-33) `df`
-34) `mount`
-35) `chmod`
-36) ``
+12) `clear` -
+13) `echo` - 
+14) `less` -
+15) `man` - 
+16) `uname` - 
+17) `whoami` - 
+18) `tar` - 
+19) `grep` - 
+20) `head` - 
+21) `tail` - 
+22) `diff` - 
+23) `cmp` - 
+24) `conn` - 
+25) `sort` - 
+26) `export` - 
+27) `zip` - 
+28) `unzip` - 
+29) `ssh` - 
+30) `service` - 
+31) `ps` - 
+32) `kill and killall` - 
+33) `df` - 
+34) `mount` - 
+35) `chmod` - 
+36) `chown` - 
+37) `ifconfig` - 
+38) `traceroute` - 
+39) `wget` - 
+40) `ufw` - 
+41) `iptables` - 
+42) `apt,dnf,pacman, yum, rpm` - 
+43) `sudo` - 
+44) `cal` - 
+45) `alias` - 
+46) `dd` - 
+47) `whereis` - 
+48) `whatis` - 
+49) `top` - 
+50) `useradd`a `usermod` - 
+51) `passwd` - 
 
 ### Akce a reakce s souborama a složkama:
 1) Vytvoření souboru (.txt, .md a další soubory):
