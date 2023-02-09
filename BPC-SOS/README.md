@@ -20,12 +20,12 @@
 > jak se přesně maže složka a jak soubor zmíněno později
 9) `touch` - vytvoření souboru
 10) `ln` - Shortcut, "symbolický link" k jinačím složkám
-11) `cat` -
-12) `clear` -
-13) `echo` - 
-14) `less` -
-15) `man` - 
-16) `uname` - 
+11) `cat` - CLI output souboru
+12) `clear` - cls obdova z windowsu
+13) `echo` - cout, printf, system.out.println
+14) `less` - output print, tuším taky na soubory
+15) `man` - show manuálu k danému comandu
+16) `uname` - get základní info o OS/Uživateli
 17) `whoami` - 
 18) `tar` - 
 19) `grep` - 
