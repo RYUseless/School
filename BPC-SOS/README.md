@@ -2,7 +2,7 @@
 
 # Základní commandy v terminálu, na které si vzpomenu:
 > `$` znamená základní oprávnění uživatele
-> `#` znamená root oprávnění uživatele
+> `#` znamená root oprávnění uživatele <br>
 > pokud mi terminál nechce brát příkaz kvůli nějaké neshodě v samotném příkazu, stačí za příkaz dát'--help', používá se i když si člověk nepamatuje všechny možnosti příkazu a tak, např:
 > ``` 
 > $ uname --help
