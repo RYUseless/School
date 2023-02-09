@@ -26,36 +26,36 @@
 14) `less` - output print, tuším taky na soubory
 15) `man` - show manuálu k danému comandu
 16) `uname` - get základní info o OS/Uživateli
-17) `whoami` - 
-18) `tar` - 
-19) `grep` - 
-20) `head` - 
-21) `tail` - 
-22) `diff` - 
-23) `cmp` - 
-24) `conn` - 
-25) `sort` - 
-26) `export` - 
-27) `zip` - 
-28) `unzip` - 
-29) `ssh` - 
-30) `service` - 
-31) `ps` - 
-32) `kill and killall` - 
-33) `df` - 
-34) `mount` - 
-35) `chmod` - 
-36) `chown` - 
-37) `ifconfig` - 
-38) `traceroute` - 
-39) `wget` - 
-40) `ufw` - 
-41) `iptables` - 
-42) `apt,dnf,pacman, yum, rpm` - 
-43) `sudo` - 
-44) `cal` - 
-45) `alias` - 
-46) `dd` - 
+17) `whoami` - výpis momentálně aktivního uživatele
+18) `tar` - unzip .tar, .tar.gz a další zipovací soubory
+19) `grep` - Hledání stringu v daném výpisu
+20) `head` - vrací specifický počet řádků, ze začátku
+21) `tail` - vrací specifický počet řádků, z konce
+22) `diff` - hledání rozdílů, mezi dvěma soubory
+23) `cmp` - hledání shody dvou souborů
+24) `conn` - *diff* + *cmp* vykombené dohromady
+25) `sort` - třídění outputu dané složky
+26) `export` - exportování proměnné v linuxu
+27) `zip` - zazipování složek v linuxu
+28) `unzip` - odzipování složek v linu
+29) `ssh` - ssh connect
+30) `service` - příkaz na zapnutí/vypnutí služeb
+31) `ps` - zobrazení aktivních procesů
+32) `kill and killall` - ukončení procesů
+33) `df` - zobrazí filesystem informace
+34) `mount` - moutnutí zařízení k linuxu
+35) `chmod` - mění oprávnění souborů
+36) `chown` - příkaz k oprávnění složek nebo souborů
+37) `ifconfig` - internet info, *ipconfig* wannabe
+38) `traceroute` - KOM feels :)
+39) `wget` - stahuje soubory přímo z netu
+40) `ufw` - firewall, velmi jednoduchý na setup, GUI verze je: *gufw*
+41) `iptables` - základní firewall, lehce komplikovanější
+42) `apt,dnf,pacman, yum, rpm` - package manager, přes něj se stahují aplikace, balíčky atd.
+43) `sudo` - přidání oprávnění, admin
+44) `cal` - command line kalendář
+45) `alias` - shortcut na nějaký často používané commandy
+46) `dd` - používá se pro vytváření usb bootable devices a taky při /boot/efi
 47) `whereis` - 
 48) `whatis` - 
 49) `top` - 
