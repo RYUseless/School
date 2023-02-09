@@ -56,11 +56,11 @@
 44) `cal` - command line kalendář
 45) `alias` - shortcut na nějaký často používané commandy
 46) `dd` - používá se pro vytváření usb bootable devices a taky při /boot/efi
-47) `whereis` - 
-48) `whatis` - 
-49) `top` - 
-50) `useradd`a `usermod` - 
-51) `passwd` - 
+47) `whereis` - vyhledání lokace dané složky/programu 
+48) `whatis` - vyhledání, k čemu daný příkaz je
+49) `top` - zobrazení procesů které jsou právě aktivní s danou omáčkou
+50) `useradd`a `usermod` - vytvoření/edit uživatelů
+51) `passwd` - vytvoření nebo update hesel daných uživatelů
 
 ### Akce a reakce s souborama a složkama:
 1) Vytvoření souboru (.txt, .md a další soubory):
