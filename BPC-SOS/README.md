@@ -111,8 +111,8 @@ $ lsusb
 $ vim <name_of_the_thing_u_wanna_edit>
 ```
 - Jak ukončit vim? <br>
-	**1. krok:** přejít zpět do command modu -> `ESC` button (tak aby to dole neukazovalo `--INSERT--` nebo `--REPLACE--`) <br>
-	**2. krok(možnost 1):** `:q` pro ukončení   <br>
-	**2. krok(možnost 2):** `:wg` pro uložení změn a ukončení  <br>
-	**2. krok:(možnost 3)** `:g!` pro ukončení bez uložení změn <br>
+	 -- **1. krok:** přejít zpět do command modu -> `ESC` button (tak aby to dole neukazovalo `--INSERT--` nebo `--REPLACE--`) <br>
+	-- **2. krok(možnost 1):** `:q` pro ukončení   <br>
+	-- **2. krok(možnost 2):** `:wg` pro uložení změn a ukončení  <br>
+	-- **2. krok:(možnost 3)** `:g!` pro ukončení bez uložení změn <br>
 	 > `:w` uloží změny co člověk zapsal <br>
