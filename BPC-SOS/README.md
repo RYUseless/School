@@ -115,8 +115,8 @@ $ vim <name_of_the_thing_u_wanna_edit>
 - **2. krok(možnost 1):** `:q` pro ukončení   <br>
 - **2. krok(možnost 2):** `:wg` pro uložení změn a ukončení  <br>
 - **2. krok:(možnost 3)** `:g!` pro ukončení bez uložení změn <br>
- > `:w` uloží změny co člověk zapsal <br>
+	 > `:w` uloží změny co člověk zapsal <br>
 ### Workflow a comandy na používání:
 - Pro edit souboru je třeba zmáčknout `i` nebo `insrert`<br>
-> dole by se mělo zobrazit ' --INSERT-- ', pokud 2x zmáčknete `insert` tlačítko, tak to vim přejde do ' --REPLACE-- ' modu
-- smthn
+	> dole by se mělo zobrazit *--INSERT--*, pokud 2x zmáčknete `insert` tlačítko, tak to vim přejde do *--REPLACE--* modu
+- smthn 'pokus'
