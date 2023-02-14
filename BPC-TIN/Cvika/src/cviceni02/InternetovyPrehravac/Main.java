@@ -2,6 +2,7 @@ package cviceni02.InternetovyPrehravac;
 
 public class Main {
     public static void main(String[] args) {
+        //PACKETY NE PREHRAVAC
         Packet p1 = new Packet();
         p1.setName("packet1");
         Packet p2 = new Packet();

@@ -9,8 +9,5 @@ public class Main {
         System.out.println("DOPRAVA: \n"+b1.toString());
         b1.posun(Board.NAHORU);
         System.out.println("NAHORU: \n"+b1.toString());
-
-
-
     }
 }

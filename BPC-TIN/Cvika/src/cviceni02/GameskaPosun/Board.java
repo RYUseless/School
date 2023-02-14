@@ -47,7 +47,7 @@ public class Board {
             }
             out += "\n";
         }
-        return "HRACI POLE \n"
+        return "HRACI POLE"
                 + "\n" + out + "KONEC HRACIHO POLE\n";
     }
 }
