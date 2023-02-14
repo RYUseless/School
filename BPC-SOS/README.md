@@ -106,6 +106,7 @@ $ lsusb
 > zde je potřeba sudo <br>
 
 # Fuckin VIM:
+> vim má 3 mody (asi?), `command`, `insert`, `replace`.
 ### Jak vůbec otevřít vim?
 ``` 
 $ vim <name_of_the_thing_u_wanna_edit>
@@ -119,4 +120,4 @@ $ vim <name_of_the_thing_u_wanna_edit>
 ### Workflow a comandy na používání:
 - Pro edit souboru je třeba zmáčknout `i` nebo `insrert`<br>
 	> dole by se mělo zobrazit *--INSERT--*, pokud 2x zmáčknete `insert` tlačítko, tak to vim přejde do *--REPLACE--* modu
-- smthn 'pokus'
+- pro odstranění řádku je třeva přejít do command modu a napsat `dd`

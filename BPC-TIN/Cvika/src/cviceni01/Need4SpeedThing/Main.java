@@ -12,5 +12,7 @@ public class Main {
         mapa.auto3 = car3;
         mapa.auto4 = car4;
 
+        System.out.println("auto1 = " + car1.getNameOfCar());
+
     }
 }
