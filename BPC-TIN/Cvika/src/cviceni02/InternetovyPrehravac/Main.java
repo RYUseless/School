@@ -16,5 +16,6 @@ public class Main {
         p2.setDalsi(p3);
         p3.setDalsi(p4);
         //zadny loopback na packet1
+
     }
 }
