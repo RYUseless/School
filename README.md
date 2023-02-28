@@ -3,8 +3,8 @@
 
 ## Content of this repo:
  > formát je: Předmět -> Ročník - Semestr -> Programovací jazyk
-- **BPC-BDS** -> `BPC-IBE02 - zimní -> Java`
-- **BPC-AKR** -> `BPC-IBE02 - zimní -> Python`
-- **BPC-SOS** -> `BPC-IBE02 - letní -> linux stuff`
-- **BPC-TIN** -> `BPC-IBE02 - letní -> Java`
+- **BPC-BDS** -> BPC-IBE-02 - zimní -> Java
+- **BPC-AKR** -> BPC-IBE-02 - zimní -> Python
+- **BPC-SOS** -> BPC-IBE-02 - letní -> linux stuff
+- **BPC-TIN** -> BPC-IBE-02 - letní -> Java
 - comingSoonTM
