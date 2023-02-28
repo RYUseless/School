@@ -17,7 +17,7 @@ public class Main {
 
             while (line != null) {
                 String[] words = line.split(" ");//split slov dle mezery
-                for (int i = 0; i < words.length; i++) {
+                for (int i = 0; i < words.length; i++) { //for loop dokud je i mensi nez delka
                     if (m1.get(words[i]) == null) {
                         m1.put(words[i], 1);
                     } else {
